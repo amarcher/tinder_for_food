@@ -1,4 +1,4 @@
-require_relative '../config/application'
+require_relative '../../config'
 
 class CreateSchemas < ActiveRecord::Migration
   def change
