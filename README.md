@@ -41,4 +41,4 @@ tinder_for_food
 --yelp_url (string)
 
 ##Pics
-![whiteboarding](/img.jpg "Whiteboarding")
+![whiteboarding](IMG.JPG "Whiteboarding")
