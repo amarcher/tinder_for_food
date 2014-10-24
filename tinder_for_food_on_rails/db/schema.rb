@@ -18,7 +18,31 @@ ActiveRecord::Schema.define(version: 20141024035709) do
     t.string   "info_url"
     t.string   "name"
     t.string   "description"
-    t.string   "cuisine_type"
+    t.integer  "restaurant_id"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
+
+  create_table "ratings", force: true do |t|
+    t.integer  "user_id"
+    t.integer  "item_id"
+    t.boolean  "liked"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
+
+  create_table "restaurants", force: true do |t|
+    t.string   "name"
+    t.string   "location"
+    t.string   "homepage_url"
+    t.string   "yelp_url"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
+
+  create_table "users", force: true do |t|
+    t.string   "email"
+    t.string   "name"
     t.datetime "created_at"
     t.datetime "updated_at"
   end
