@@ -1,7 +1,5 @@
-tinder_for_food
+Tinder for Food
 ===============
-
-#Tinder for Food
 
 ##User Stories
 - As a user, I should be able to login to my profile
@@ -23,7 +21,7 @@ tinder_for_food
 - pic_url (string)
 - info_url (string)
 - name (string)
-- description (int)
+- description (string)
 - restaurant_id (int)
 - cuisine_type (string)*   --  could be its own table
 
