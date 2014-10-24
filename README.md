@@ -13,32 +13,32 @@ tinder_for_food
 ##Schema
 
 ### Entities & Data Types
-- users
--- id (int)
--- email (string)
--- name (string)
+####users
+- id (int)
+- email (string)
+- name (string)
 
-- items
--- id (int)
--- pic_url (string)
--- info_url (string)
--- name (string)
--- description (int)
--- restaurant_id (int)
--- cuisine_type (string)*   --  could be its own table
+####items
+- id (int)
+- pic_url (string)
+- info_url (string)
+- name (string)
+- description (int)
+- restaurant_id (int)
+- cuisine_type (string)*   --  could be its own table
 
-- ratings
--- id (int)
--- user_id (int)
--- item_id (int)
--- liked (bool)
+####ratings
+- id (int)
+- user_id (int)
+- item_id (int)
+- liked (bool)
 
-- restaurants
--- id (int)
--- name (string)
--- location (string)
--- homepage_url (string)
--- yelp_url (string)
+####restaurants
+- id (int)
+- name (string)
+- location (string)
+- homepage_url (string)
+- yelp_url (string)
 
 ##Pics
 ![whiteboarding](IMG.JPG "Whiteboarding")
